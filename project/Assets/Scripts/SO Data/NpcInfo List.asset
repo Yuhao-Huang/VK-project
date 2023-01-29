@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35327466e99351d44a58fe3930ce3f1d, type: 3}
+  m_Name: NpcInfo List
+  m_EditorClassIdentifier: 
+  npcInfoList:
+  - npcID: 50001
+    npcName: Statue
+    dialogList:
+    - dialogID: 30001
+      dialogName: 
+      isRepeat: 1
+      triggerCondition:
+        type: 0
+        id: 
+        compare: 0
+        target: 
+    - dialogID: 30002
+      dialogName: 
+      isRepeat: 1
+      triggerCondition:
+        type: 1
+        id: 30001
+        compare: 3
+        target: 2
+    - dialogID: 30003
+      dialogName: 
+      isRepeat: 0
+      triggerCondition:
+        type: 0
+        id: 20002
+        compare: 3
+        target: 1
+    questIDList:
+    - 40001
